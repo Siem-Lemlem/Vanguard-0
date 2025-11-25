@@ -1,0 +1,26 @@
+# Build outputs
+build/
+*.exe
+*.o
+*.obj
+
+# Data files
+data/*.csv
+data/*.h5
+
+# CAD temp files
+*.FCStd1
+*.FCStd2
+*.autosave
+
+# 3D print files (large)
+cad/exports/*.stl
+cad/exports/*.gcode
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
